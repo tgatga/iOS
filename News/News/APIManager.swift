@@ -1,50 +1,42 @@
 //
-//  APIManager.swift
+//  Response.swift
 //  News
 //
-//  Created by Assel Tolebayeva on 26.03.2018.
+//  Created by Assel Tolebayeva on 20.03.2018.
 //  Copyright © 2018 SDU. All rights reserved.
 //
 
 import Foundation
 import Alamofire
-import ObjectMapper
-
 import PromiseKit
+import ObjectMapper
+import SwiftyJSON
 
 class APIManager{
-    var mas:[OneNews] = []
+    var news:[NEWS] = []
     static let sharedInstance = APIManager()
     private init(){
-        
     }
-    func fetchPositiveNewsFromApi(api:String) -> Promise<[OneNews]>  {
-        return  Promise<[OneNews]> {_ in 
-            fullfit,reject -> in Void
-in
-            return  Alamofire.request(api).responseString{
-                response in
+    func fetchPositiveNewsFromApi(api:String) -> [NEWS]{
+        if let path = Bundle.main.path(forResource: api, ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
+                let jsonData = try JSON(data: data)
                 
-                switch(response.result){
-                case .success(let responString):
-                    let result = Mapper<OneNews>().mapArray(JSONString: "\(responString)")
+                if jsonData != JSON.null {
+                    let result = Mapper<NEWS>().mapArray(JSONString: "\(jsonData)")
                     for i in result!{
-                        self.mas.append(OneNews.init(i.link!, i.title!, i.short_info!, i.date!, i.description!))
+                        news.append(NEWS.init(i.link!, i.title!, i.short_info!, i.date!, i.description!))
                     }
-                    fullfit(self.mas)
-                    
-                case .failure(let error):
-                    print(error)
+                } else {
+                    print("Could not get json from file, make sure that file contains valid json.")
                 }
+            } catch let error {
+                print("parse error: \(error.localizedDescription)")
             }
+        } else {
+            print("Invalid filename/path.")
         }
-    }
-    func download() -> Promise<String> {
-        return Promise { fulfill, reject in
-            
-            
-        }
-    }
-    
-    
+        return news
+    } 
 }
