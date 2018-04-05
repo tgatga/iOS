@@ -1,0 +1,15 @@
+PODS:
+  - Cartography (3.0.1)
+  - TableFlip (1.2)
+
+DEPENDENCIES:
+  - Cartography
+  - TableFlip
+
+SPEC CHECKSUMS:
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  TableFlip: 2ae22773412b295a7cbc54d95b44085bb28092f6
+
+PODFILE CHECKSUM: 242b7cdce62e0244c75280c062811b30048ef4a1
+
+COCOAPODS: 1.4.0
