@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SDUProject1/Cell/NEWS_Cell.swift"
+            timestampString = "542050798.9319299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "NEWS_Cell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDUProject1.NEWS_Cell.newsLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "SDUProject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazhmeddinbabakhanov/Desktop/SDUProject1/SDUProject1/Cell/NEWS_Cell.swift"
+                  timestampString = "542043033.11823"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDUProject1.NEWS_Cell.newsLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "SDUProject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazhmeddinbabakhanov/Desktop/SDUProject1/SDUProject1/Cell/NEWS_Cell.swift"
+                  timestampString = "542043033.12271"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDUProject1.NEWS_Cell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; SDUProject1.NEWS_Cell"
+                  moduleName = "SDUProject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazhmeddinbabakhanov/Desktop/SDUProject1/SDUProject1/Cell/NEWS_Cell.swift"
+                  timestampString = "542043033.12638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDUProject1.NEWS_Cell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SDUProject1.NEWS_Cell&gt;"
+                  moduleName = "SDUProject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazhmeddinbabakhanov/Desktop/SDUProject1/SDUProject1/Cell/NEWS_Cell.swift"
+                  timestampString = "542043033.130197"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
