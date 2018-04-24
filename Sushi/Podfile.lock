@@ -1,0 +1,24 @@
+PODS:
+  - AAPickerView (0.1.2)
+  - Cartography (3.0.1)
+  - Cosmos (14.0.0)
+  - PMAlertController (3.2.0)
+  - SwiftyButton (0.8.0)
+
+DEPENDENCIES:
+  - AAPickerView
+  - Cartography
+  - Cosmos
+  - PMAlertController
+  - SwiftyButton
+
+SPEC CHECKSUMS:
+  AAPickerView: 6a22bdff279b5e21ca51b4e6fe015599b20a81ad
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  Cosmos: 6dd44b65d587033e690ae1c350c875d262a23fda
+  PMAlertController: 46047b840f6e1833c2a5395c91ccad29e72ae2c0
+  SwiftyButton: 093e3fe2becf3ae31c0f6c1c6987b79a93fb3ecb
+
+PODFILE CHECKSUM: 74c5c40ef84fd638671d0b1a75daf327e0e477dc
+
+COCOAPODS: 1.4.0
